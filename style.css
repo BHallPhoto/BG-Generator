@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font: 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  top: 15%;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));
+}
+
+h1 {
+  font: 600 3.5em 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: .01em;
+  font-weight: 600;
+}
+
+#random {
+  height: 40px;
+  padding: 0 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgba(0,0,0,.5);
+  border-radius: 50px;
+  background-color: rgb(250, 250, 250);
+  border: none;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  margin: 10px 0;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  transition: all .35s;
+}
+
+#random:hover {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));
+}
+
+#random:active {
+  opacity: .8;
+  color: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#copy {
+  height: 50px;
+  padding: 0 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgba(0,0,0,.5);
+  border-radius: 50px;
+  background-color: rgb(250, 250, 250);
+  border: none;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  margin: 10px 0;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  transition: all .35s;
+}
+
+#copy:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));
+  color: #fff;
+}
+
+#copy:active {
+  opacity: .8;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0);
+}
