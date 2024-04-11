@@ -62,6 +62,56 @@ h3 {
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
+.angles {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+.angles i {
+  padding: 10px 0;
+}
+
+.left-right, .top-down, .bottom-right, .bottom-left {
+  padding: 0 14px;
+  font-size: 1.8em;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-right i {
+  position: relative;
+  left: 4px;
+}
+
+.top-down i {
+  position: relative;
+  left: 4px;
+}
+
+.bottom-right i {
+  position: relative;
+  top: -3px;
+  left: 3px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.bottom-left i {
+  position: relative;
+  top: 1px;
+  left: 3px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 #copy {
   height: 50px;
   padding: 0 30px;

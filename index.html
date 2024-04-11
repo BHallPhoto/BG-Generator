@@ -16,12 +16,22 @@
     <button id="random">Random Colors</button>
   </div>
   <div class="angles">
-    <i class="fa-solid fa-circle-right"></i>
-    <input type="radio" name="angle" id="left-right" value="checked">
-    <i class="fa-solid fa-circle-down"></i>
-    <input type="radio" name="angle" id="top-down">
-    <input type="radio" name="angle" id="topleft-bottomright">
-    <input type="radio" name="angle" id="topright-bottomleft">
+    <div class="left-right">
+      <i class="fa-solid fa-circle-right"></i>
+      <input class="angle-select" type="radio" name="angle" id="to-right" checked>  
+    </div>
+    <div class="top-down">
+      <i class="fa-solid fa-circle-down"></i>
+      <input class="angle-select" type="radio" name="angle" id="to-bottom">
+    </div>
+    <div class="bottom-right">
+      <i class="fa-solid fa-circle-down"></i>
+      <input class="angle-select" type="radio" name="angle" id="bottom-right">
+    </div>
+    <div class="bottom-left">
+      <i class="fa-solid fa-circle-down"></i>
+      <input class="angle-select" type="radio" name="angle" id="bottom-left">
+    </div>
   </div>
   <h2>Current CSS Background</h2>
   <h3 id="copytext">background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));</h3>
