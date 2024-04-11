@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c9370baf3d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -15,10 +16,12 @@
     <button id="random">Random Colors</button>
   </div>
   <div class="angles">
-    <input type="radio" name="left-right" id="left-right">
-    <input type="radio" name="top-down" id="top-down">
-    <input type="radio" name="topleft-bottomright" id="topleft-bottomright">
-    <input type="radio" name="topright-bottomleft" id="topright-bottomleft">
+    <i class="fa-solid fa-circle-right"></i>
+    <input type="radio" name="angle" id="left-right" value="checked">
+    <i class="fa-solid fa-circle-down"></i>
+    <input type="radio" name="angle" id="top-down">
+    <input type="radio" name="angle" id="topleft-bottomright">
+    <input type="radio" name="angle" id="topright-bottomleft">
   </div>
   <h2>Current CSS Background</h2>
   <h3 id="copytext">background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));</h3>
