@@ -20,10 +20,13 @@ color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 
 random.addEventListener("click", () => {
+  debugger;
   let gradAng = "to right";
+  color1.setAttribute("value", "#"+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, "0"));
+  color2.setAttribute("value", "#"+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, "0"));
   for (let i = 0; i < angles.length; i++) {
-    console.log(angles[i].id);
-    switch (angles[i].checked) {
+    // console.log(angles[i].id);
+    switch (true) {
       case angles[i].id === "to-right":
         gradAng = "to right";
         break;
@@ -31,7 +34,6 @@ random.addEventListener("click", () => {
         gradAng = "to bottom";
         break;
       case angles[i].id === "bottom-right":
-        console.log('test');
         gradAng = "to bottom right";
         break;
       case angles[i].id === "bottom-left":
@@ -40,8 +42,6 @@ random.addEventListener("click", () => {
       default:
     }
   }
-  color1.setAttribute("value", "#"+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, "0"));
-  color2.setAttribute("value", "#"+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, "0"));
   setGradient(gradAng)
 })
 
